@@ -1,0 +1,119 @@
+body {
+  background-color: #2e3c57;
+  font-family: courier;
+  font-size: 15px;
+  margin: 20px 0px;
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+div.board {
+  margin-left: 40px;
+}
+
+.status {
+  margin:0px auto;
+  margin-top: 40px;
+  width: 980px;
+}
+
+.scratch {
+  font-size: 20px;
+}
+
+.scratchtable {
+  float: left;
+  width: 260px;
+}
+
+td.scratchvalue {
+  padding-left: 10px;
+  color: red;
+}
+
+.dice {
+  float: left;
+  width: 650px;
+}
+
+tr.row {
+  margin:0px auto;
+  width: 1400px;
+  height: 48px;
+}
+
+td.cell {
+  margin: 1px;
+  float: left;
+}
+
+td.horsenum {
+  width: 60px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+
+td.cellelement {
+  border: 1px solid white;
+  width: 140px;
+  background-image:url('/images/cellbg.png');
+}
+
+.scratched td.cellelement  {
+  background-image:url('/images/cellbg_scratched.png');
+}
+
+img.horse {
+  margin-left: -30px;
+}
+
+img.win {
+  margin-left: 70px;
+}
+
+table.diceroll {
+  border-spacing: 8px;
+  border-collapse: separate;
+}
+
+td.roll {
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  text-decoration: underline;
+  width: 60px;
+  text-align: center;
+  background-color: #333;
+}
+
+.rollheader {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.msg {
+  width: 1000px;
+  height: 400px;
+}
+
+.msg table {
+  color: red;
+  font-size: 56px;
+  font-weight: bold;
+  height: 100%;
+  width: 100%;
+}
+
+.msg td {
+  vertical-align: middle;
+  text-align: center;
+}
